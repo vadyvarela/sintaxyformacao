@@ -121,7 +121,7 @@ export default function Home() {
           <div className="pt-12">
             <Title title="Perguntas Frequentes" />
             <div>
-            <div class="mt-8">
+            <div className="mt-8">
               {faq.map((faqs, index) => (
                 <Accordion key={index} index={index} title={faqs.title} desc={faqs.desc} />
               ))}
