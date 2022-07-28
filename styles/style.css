@@ -9,3 +9,45 @@
     height: 76.7%;
     z-index: 9;
 }
+
+.vh70 {
+    min-height: 70vh;
+}
+
+@media (max-width: 575px) {
+    .vh70 {
+        min-height: 40vh;
+    }
+    .efect:before {
+        height: 40% !important;
+        z-index: 9;
+    }
+}
+@media (max-width: 768px) {
+    .vh70 {
+        min-height: 40vh !important;
+    }
+    .efect:before {
+        height: 60% !important;
+        z-index: 9;
+    }
+}
+
+@media (max-width: 991px) {
+    .vh70 {
+        min-height: 40vh;
+    }
+    .efect:before {
+        height: 50% !important;
+        z-index: 9;
+    }
+}
+@media (max-width: 1090px) {
+    .vh70 {
+        min-height: 40vh;
+    }
+    .efect:before {
+        height: 43% !important;
+        z-index: 9;
+    }
+}
