@@ -1,0 +1,11 @@
+.efect:before {
+    /* background: linear-gradient(to right, rgb(194 27 120) 9%, transparent 70%); */
+    background: linear-gradient(to right, #1e293b 9%, transparent 70%);
+    /* background: linear-gradient(180deg,#3e81c2 20%,rgba(0,41,78,0)); */
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 76.7%;
+    z-index: 9;
+}

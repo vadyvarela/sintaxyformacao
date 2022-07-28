@@ -1,0 +1,34 @@
+
+// if you need after/before pseudo elements please use https://github.com/croutonn/tailwindcss-pseudo-elements
+.title::after, .title::before {
+  content: '';
+  position: absolute;
+  right: 1.25em;
+  top: 1.25em;
+  width: 2px;
+  height: 0.75em;
+  background-color: #C21B78;
+  transition: all 0.2s;
+}
+
+.title::after {
+  transform: rotate(90deg);
+}
+
+.content {
+  max-height: 0;
+  transition: max-height .20s;
+}
+
+.toggle:checked {
+  & + .title,
+  & + .title + .content {
+    box-shadow: 3px 3px 6px #1e293b, -3px 3px 6px #1e293b;
+  }
+  & + .title + .content {
+    max-height: 500px;
+  }
+  & + .title::before {
+    transform: rotate(90deg) !important;
+  }
+}
