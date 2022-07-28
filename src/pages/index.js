@@ -76,6 +76,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
+                alt="Sintaxy"
                   src={Smile}
                   layout="responsive"
                   width={700}
@@ -92,6 +93,7 @@ export default function Home() {
             <div className="hidden md:block w-2/5">
               <div>
                 <Image
+                alt="Sintaxy"
                   src={why} 
                   layout="responsive"
                   width={700}
@@ -130,7 +132,7 @@ export default function Home() {
 
         <footer className="pt-10 border-t border-gray-700 dark:bg-slate-800  bg-gray-100 py-5">
           <div className="text-center text-md md:text-base relative max-w-7xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5">
-            <span className="dark:text-gray-100 text-center"> &copy; 2022 <a className="text-[#C21B78] " href="https://sintaxy.com/" target="_blank"> Sintaxy </a> Todos os direitos reservados. </span>
+            <span className="dark:text-gray-100 text-center"> &copy; 2022 <a className="text-[#C21B78]" rel="noreferrer" href="https://sintaxy.com/" target="_blank"> Sintaxy </a> Todos os direitos reservados. </span>
           </div>
         </footer>
 

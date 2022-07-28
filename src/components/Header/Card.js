@@ -13,7 +13,7 @@ export default function Card({ title, desc, teacher, duration,  number }) {
           <p className="text-sm text-[#212529] dark:text-gray-50"> { desc } </p>
           <div className="mt-4">
             <div className="flex items-center mb-2 text-xs">
-              <Image 
+              <Image
               height="15px"
               width="15px"
               layout="intrinsic"

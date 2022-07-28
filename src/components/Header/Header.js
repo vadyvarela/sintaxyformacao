@@ -25,6 +25,7 @@ export default function Header() {
         </div>
         <div className="efect hidden md:block">
           <Image
+          alt="Sintaxy"
             src={banner}
             layout="responsive"
             width={700}
