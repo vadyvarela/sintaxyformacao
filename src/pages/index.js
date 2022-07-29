@@ -88,7 +88,7 @@ export default function Home() {
           </div>
         </div>
       
-        <div className="bg-[#fcfafb] dark:bg-slate-800">
+        <div className="bg-[#fcfafb] dark:bg-slate-700">
           <div className="flex">
             <div className="hidden md:block w-2/5">
               <div>
