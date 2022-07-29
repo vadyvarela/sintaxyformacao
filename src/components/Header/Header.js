@@ -5,7 +5,7 @@ import banner from '../../../public/images/bannerF.png'
 
 export default function Header() {
   return (
-    <div  className="shadow-md vh70">
+    <div  className="vh70">
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="bg-[#1e293bd3]">
           <div className="flex justify-center h-full flex-col max-w-xl mx-auto px-4 py-10 md:py-0 sm:px-3 md:px-5 ">
