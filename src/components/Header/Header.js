@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div  className="vh70">
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="bg-[#1e293bd3]">
+        <div className="bg-[#c21b78]">
           <div className="flex justify-center h-full flex-col max-w-xl mx-auto px-4 py-10 md:py-0 sm:px-3 md:px-5 ">
             <div className="py-10 md:py-14 xl:py-28">
               <h2 className="text-white text-4xl lg:text-4xl xl:text-5xl font-bold mb-5"> Formação <br />Programador <span className="text-[#c21b78]"> Full Stack </span> </h2>
@@ -16,14 +16,14 @@ export default function Header() {
               <span className="block text-white text-lg xl:text-2xl"> De 01/01/2022 a 05/02/2022 </span>
 
               <div className="flex mt-10">
-                <Link href="/">
+                <Link href="/inscrever">
                   <a className="text-[#c21b78] font-bold rounded-lg shadow-xl bg-white px-10 xl:px-16 py-2 xl:py-3 text-base md:text-xl"> Inscrever </a>
                 </Link>
               </div>
             </div>
           </div>
         </div>
-        <div className="efect hidden md:block">
+        <div className="hidden md:block">
           <Image
           alt="Sintaxy"
             src={banner}
