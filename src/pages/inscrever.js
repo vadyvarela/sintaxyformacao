@@ -16,7 +16,6 @@ export default function Inscrever() {
       </Head>
 
       <div>
-        
         <div className="bg-white dark:bg-slate-800 relative max-w-7xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5">
           <div className="py-3 md:py-10 text-center">
             <div className="">
@@ -32,9 +31,9 @@ export default function Inscrever() {
             src="https://docs.google.com/forms/d/e/1FAIpQLSdrd9lDqaZh6YWFbKYyLhIcsAKaxWBaza5xjszOEo66FXcNAQ/viewform?embedded=true" 
             width="100%" 
             height="4620" 
-            frameborder="0" 
-            marginheight="0" 
-            marginwidth="0">A carregar…</iframe>
+            frameBorder="0" 
+            marginHeight="0" 
+            marginWidth="0">A carregar…</iframe>
           </div>
           
         </div>
